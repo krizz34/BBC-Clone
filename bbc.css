@@ -273,7 +273,68 @@ body{
   margin-right: 92px; /* Adjust as needed */
 }
 
+.weather-heading{
+  font-weight: bold;
+  font-size: 20px;
+  color: #474646;
+  margin-top: 25px;
+  position: relative;
+}
 
+.weather-edit{
+  border-radius: 0px !important;
+  background-color: #f6f5f5 !important;
+  color: #333333 !important;
+  border: none !important;
+  font-size: 10px !important;
+}
+
+.forecast--link{
+  position: relative;
+}
+
+.forecast--day{
+  position: absolute;
+  bottom:65%;
+  left: 110%;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.forecast--high{
+  position: absolute;
+  bottom: -90%;
+  left: 110%;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.forecast--low{
+  position: absolute;
+  top: 75%;
+  left: 110%;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+}
+
+.forecast--low--night{
+  position: absolute;
+  top: 0%;
+  left: 110%;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: black;
+}
+
+.col-2 {
+  margin-right: 35px; /* Adjust as needed */
+}
 
 
 
