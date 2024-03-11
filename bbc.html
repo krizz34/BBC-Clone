@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bbc.css">
+    <script src="https://kit.fontawesome.com/35560a7828.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>BBC - Homepage</title>
+</head>
+<body>
+    <header>
+        <nav class="customNavbar felx-container">
+                <h3 class="navbarBrand"><span class="BBC">B</span class="BBC"><span class="BBC">B</span><span class="BBC">C</span></h3>
+                <a href="#" class="navLink flex-signin">
+                    <i class="fas fa-user" style="font-size: 22px; margin-right: 5px; margin-left: -35px;"></i>
+                    <span> Sign in</span></a>
+                <p style="font-size: 22px; font-weight:lighter; color: rgb(46, 46, 46); margin-left: 80px;">|</p>
+                <a href="#" class="navLink navLinkHome">Home</a>
+                <a href="#" class="navLink navLinkNews">News</a>
+                <a href="#" class="navLink navLinkSports">Sport</a>
+                <a href="#" class="navLink navLinkEarth">Earth</a>
+                <a href="#" class="navLink navLinkReel">Reel</a>
+                <a href="#" class="navLink navLinkWorklife">Worklife</a>
+                <a href="#" class="navLink navLinkTravel">Travel</a>
+                <a href="#" class="navLink navLinkCulture">Culture</a>
+                <a href="#" class="navLink navLinkDot">...</a>
+                <button class="navbarSearch"><i class="fas fa-search" style="font-size: 16px; margin-right: 5px;"></i> Search BBC</button>
+            </div>            
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>
+                    <span style="color: grey; display: inline-block;">Welcome to BBC.com</span>
+                    <span style="color: grey; font-weight: lighter; float: inline-end;" class="d-none d-md-block">Monday, 11 March</span>
+                </h2>
+            </div>
+            <div class="col-12 col-lg-6">
+                <a href="#" style="display: block; height: 51vh; position: relative;" class="vignette-overlay">
+                    <img src="https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/vivo/live/images/2024/3/11/2eb1f0a7-1f0c-4413-85f8-a4824c59208c.jpg" class="img-fluid" style="width: 100%; height: 100%;">
+                    <div class="floating-heading">Oppenheimer sweeps awards with best picture and actor wins</div>
+                    <div class="floating-desc">Oppenheimer is the big winner of the 96th Oscars after scooping seven awards including best picture and best actor for Cillian Murphy</div>
+                    <div class="floating-location"><span style="font-size: 14px; font-weight: bolder; color: red; margin-right: 5px;">|</span> LIVE</div>
+                </a>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <a href="#" style="display: block; height: 25vh; position: relative;" class="vignette-overlay">
+                            <img src="data:image/jpeg;base64,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" class="img-fluid w-100">
+                            <div class="floating-heading-small">Byju's: India's once most valuable start-up is fighting to survive</div>
+                            <div class="floating-location-small"><span style="font-size: 14px; font-weight: bolder; color: skyblue; margin-right: 5px;">|</span> INDIA</div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <a href="#" style="display: block; height: 25vh; position: relative;" class="vignette-overlay">
+                            <img src="https://ychef.files.bbci.co.uk/976x549/p0hh9pp9.webp" alt="small news2" class="img-fluid w-100">
+                            <div class="floating-heading-small">Talking on the Moon: The quest to establish lunar wi-fi for moon missions</div>
+                            <div class="floating-location-small"><span style="font-size: 14px; font-weight: bolder; color: violet; margin-right: 5px;">|</span> SPACE</div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <a href="#" style="display: block; height: 25vh; position: relative;" class="vignette-overlay">
+                            <img src="https://ichef.bbci.co.uk/onesport/cps/976/cpsprodpb/8366/production/_132883633_salah.jpg" alt="small news3" class="img-fluid w-100">
+                            <div class="floating-heading-small">Liverpool 1-1 Man City: Five major talking points after Anfield cracker</div>
+                            <div class="floating-location-small"><span style="font-size: 14px; font-weight: bolder; color: yellow; margin-right: 5px;">|</span> SPORTS</div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <a href="#" style="display: block; height: 25vh; position: relative;" class="vignette-overlay">
+                            <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/10F5A/production/_132866496_gettyimages-2060066272.jpg.webp" alt="small news4" class="img-fluid w-100">
+                            <div class="floating-heading-small">Two Sessions: China says it's open for business - do we buy it?</div>
+                            <div class="floating-location-small"><span style="font-size: 14px; font-weight: bolder; color: gray; margin-right: 5px;">|</span> BUSSINESS</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- <main class="customContainer">
+        <div style=" height: fit-content; width: 100%;">
+            <div name="News Grid">
+                <h2>
+                    <span style="color: grey; display: inline-block;">Welcome to BBC.com</span>
+                    <span style="color: grey; font-weight: lighter; float: inline-end;">Monday, 11 March</span>
+                </h2>
+                <a href="#">
+                    <img src="https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/vivo/live/images/2024/3/11/2eb1f0a7-1f0c-4413-85f8-a4824c59208c.jpg" alt="big news">
+                </a>
+                <a href="#">
+                    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/10F5A/production/_132866496_gettyimages-2060066272.jpg.webp" alt="small news1" class="smallNews">
+                </a>
+                <a href="#">
+                    <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/10F5A/production/_132866496_gettyimages-2060066272.jpg.webp" alt="small news1" class="smallNews">
+                </a>
+            </div>
+        </div>
+    </main> -->
+    
+</body>
+</html>

@@ -1,0 +1,338 @@
+@font-face {
+  font-family: 'BBC Reith Sans';
+  src: url('C:/Users/anand/Downloads/Softwares/fonts/BBC Reith/bbcreith_v2.300/BBCReithSans_V2.300/Desktop/BBCReithSans_Rg.ttf') format('truetype');
+}
+
+body{
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.customNavbar{
+    background-color: black;
+    height: 70px;
+    color: hsl(0, 0%, 100%);
+    padding: 0px 180px 0px 180px;
+    font-size: 12px;
+}
+
+.felx-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-signin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbarBrand{
+    align-content: center;
+}
+
+.BBC{
+    background-color: #fff;
+    color: black;
+    min-width: 10px;
+    padding: 4px 10px 4px 10px;
+    margin-right: 10px;
+}
+
+.verticalLine {
+    border-left: thick solid #fff;
+  }
+
+.navLink{
+    color: #fff;
+    text-decoration: none !important;
+    align-content: center;
+    /* padding-top: 45px; */
+    /* height: 100%; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+
+  .navbarSearch{
+    height: 35px;
+    width: 200px;
+    border-radius: 2px;
+    text-align: start;
+    background-color: #333333;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+  }
+
+  .navbarSearch:hover {
+    background-color: #414040;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+  }
+
+  .navLinkHome:hover {
+    border-bottom: 3px solid #fff;
+    transition: all 0.2s ease-out;
+    color: #fff;
+  }
+  .navLinkNews:hover {
+    border-bottom: 3px solid red;
+    transition: all 0.2s ease-out;
+    color: #fff;
+  }
+  .navLinkSports:hover {
+    border-bottom: 3px solid yellow;
+    transition: all 0.2s ease-out;
+    color: #fff;
+  }
+  .navLinkEarth:hover {
+    border-bottom: 3px solid greenyellow;
+    transition: all 0.2s ease-out;
+    color: #fff;
+  }
+  .navLinkReel:hover {
+    border-bottom: 3px solid blue;
+    transition: all 0.2s ease-out;
+    color: #fff;
+  }
+  .navLinkWorklife:hover {
+    border-bottom: 3px solid rgb(75, 39, 174);
+    transition: all 0.2s ease-out;
+    color: #fff;
+  }
+  .navLinkTravel:hover {
+    border-bottom: 3px solid olivedrab;
+    transition: all 0.2s ease-out;
+    color: #fff;
+  } 
+  .navLinkCulture:hover {
+    border-bottom: 3px solid rgb(115, 50, 148);
+    transition: all 0.2s ease-out;
+    color: #fff;
+  } 
+  .navLinkDot:hover {
+    border-bottom: 3px solid #fff;
+    transition: all 0.2s ease-out;
+    color: #fff;
+  }  
+
+.customContainer{
+    padding: 0px 180px 0px 180px;
+}
+
+.smallNews{
+    width: 300px;
+    height: 180px;
+}
+
+
+.img-fluid {
+  width: 100%;
+  height: 95% !important;
+  object-fit: cover; /* Maintain aspect ratio without stretching */
+}
+
+/* Adjust margins between the small news images */
+.col-6:not(:last-child) {
+  margin-bottom: 5px; /* Adjust as needed */
+  /* margin-right: 15px; Adjust as needed */
+}
+
+.floating-heading {
+  position: absolute;
+  top: 52%;
+  left: 2%;
+  font-size: 16px;
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.floating-desc {
+  position: absolute;
+  top: 75%;
+  left: 2%;
+  font-size: 16px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.floating-location {
+  position: absolute;
+  top: 88%;
+  left: 2%;
+  font-size: 16px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.floating-heading-small {
+  position: absolute;
+  top: 35%;
+  left: 2%;
+  font-size: 16px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.floating-location-small {
+  position: absolute;
+  top: 80%;
+  left: 2%;
+  font-size: 16px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.vignette-overlay {
+  position: relative;
+}
+
+.vignette-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 5%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1.5)); /* Adjust the color and opacity as needed */
+  pointer-events: none;
+}
+
+/* xs - phones */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sm -landscape phones */
+@media (min-width: 576px) {
+  .container {
+      max-width: 540px;
+      margin-right: 0px;
+      margin-left: 0px;
+  }
+  /* .floating-heading {
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    font-size: 16px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .floating-desc {
+    display: none;
+  }
+  
+  .floating-location {
+    position: absolute;
+    top: 90%;
+    left: 2%;
+    font-size: 16px;
+    color: #fff;
+    font-size: 8px;
+    font-weight: normal;
+  } */
+}
+
+/* md - tablets */
+@media (min-width: 768px) {
+  .container {
+      max-width: 720px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  /* .floating-heading {
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    font-size: 16px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .floating-desc {
+    position: absolute;
+    top: 78%;
+    left: 2%;
+    font-size: 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  
+  .floating-location {
+    position: absolute;
+    top: 90%;
+    left: 2%;
+    font-size: 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+  } */
+}
+
+/* lg - desktops */
+@media (min-width: 992px) {
+  .container {
+      max-width: 960px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  /* .floating-heading {
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    font-size: 16px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .floating-desc {
+    position: absolute;
+    top: 78%;
+    left: 2%;
+    font-size: 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  
+  .floating-location {
+    position: absolute;
+    top: 90%;
+    left: 2%;
+    font-size: 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+  } */
+}
