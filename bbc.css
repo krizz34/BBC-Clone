@@ -207,6 +207,86 @@ body{
   pointer-events: none;
 }
 
+.sub-heading{
+  font-weight: bold;
+  color: #474646;
+  margin-top: 25px;
+  position: relative;
+}
+
+.sub-heading-design{
+  position: absolute;
+  border: 2px solid red;
+  height: 22px;
+  bottom: 15%;
+}
+
+
+
+
+
+
+.customBox{
+  border: none;
+  width: 360px;
+  height: 100%;
+  margin: 20px auto;
+  display: flex !important;
+  flex-direction: column !important;  
+}
+
+.big-img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.Ltxt{
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  margin-top: 8px;
+  line-height: 1.1;
+}
+
+.Stxt{
+  font-size: 16px;
+  color: #414040;
+  font-weight: normal;
+  line-height: 1.4;
+  font-family: sans-serif;
+}
+
+.card-action{
+  color: grey;
+  margin-top: 25px;
+  position: relative;
+}
+
+.card-action-design{
+  position: absolute;
+  border: 1px solid red;
+  height: 15px;
+  bottom: 15%;
+}
+
+.col-3 {
+  margin-right: 92px; /* Adjust as needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* xs - phones */
 .container {
   width: 100%;
