@@ -340,24 +340,23 @@ body{
   object-fit: cover;
 }
 
-.vignette-overlay-earth {
+/* .vignette-overlay-earth {
   position: relative;
 }
 
 .vignette-overlay-earth::before {
   content: "";
   position: absolute;
-  top: 7vh;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
   pointer-events: none;
-}
+} */
 
 .overlay-content {
   position: absolute;
-  top: 12%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 74%;
@@ -365,22 +364,17 @@ body{
   text-align: center;
 }
 
-.earth-cards {
-  position: relative;
-  bottom: 100%;
-}
-
 .content-left {
   float: left;
   text-align: left;
 }
 
-.overlay-heading {
+/* .overlay-heading {
   font-size: 26px;
   font-weight: bold;
   font-family: serif;
-  margin-bottom: 10px;
-}
+  margin-bottom:;
+} */
 
 .earth-heading-text{
   border: 2px solid green;
@@ -408,6 +402,25 @@ body{
 .earth-button:hover {
   background-color: #000;
   transition: all 0.3s ease-in-out;
+}
+
+.customBox-Earth{
+  border: none;
+  width: 360px;
+  height: 100%;
+  margin: 20px auto;
+  display: flex !important;
+  flex-direction: column !important;  
+  background-color: #fff !important;
+}
+
+.Ltxt-Earth{
+  font-size: 20px;
+  color: #414040;
+  font-weight: bold;
+  margin-top: 8px;
+  line-height: 1.1;
+  padding: 5px 15px;
 }
 
 
