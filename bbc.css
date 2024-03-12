@@ -220,10 +220,6 @@ body{
 }
 
 
-
-
-
-
 .customBox{
   border: none;
   width: 360px;
@@ -335,6 +331,78 @@ body{
 }
 
 
+
+.earth-img{
+  margin-top: 7vh;
+  width: 100vw;
+  height: 68vh;
+  object-fit: cover;
+}
+
+.vignette-overlay-earth {
+  position: relative;
+}
+
+.vignette-overlay-earth::before {
+  content: "";
+  position: absolute;
+  top: 7vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.1));
+  pointer-events: none;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 74%;
+  color: #fff;
+  text-align: center;
+}
+
+.earth-cards {
+  position: relative;
+  bottom: 100%;
+}
+
+.content-left {
+  float: left;
+  text-align: left;
+}
+
+.overlay-heading {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: serif;
+  margin-bottom: 10px;
+}
+
+.earth-heading-text{
+  border: 2px solid green;
+  padding: 2%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.overlay-description {
+  font-size: 18px;
+}
+
+.content-right {
+  float: right;
+}
+
+.earth-button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #979797;
+  padding:5px 15px;
+  border-radius: 50px;
+}
 
 
 
